@@ -24,14 +24,14 @@
 
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
 		<script>
-			if( window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
+		if (window.location.search.match(/print-pdf/gi)) {
+	var link = document.createElement("link");
+	link.rel = "stylesheet";
+	link.type = "text/css";
+	link.href = "css/print/pdf.css";
+	document.getElementsByTagName("head")[0].appendChild(link);
+}
+</script>
 
 		<!-- If use the PDF print sheet so students can print slides-->
 
@@ -108,7 +108,7 @@
                     <ul>
                         <li>Who are you?</li>
                         <li>What do you hope to get out of the class?</li>
-                        <li>What is your favorite breakfast food?</li>
+                        <li>What is your favorite landmark or tourist attraction?</li>
                     </ul>
                 </section>
 
@@ -283,8 +283,8 @@
 
 		        <section>
 		          	<h3>Browsers (Client Side)</h3>
-		          		<img src="images/browser-stats.png" alt="Browser usage statistics" width="700" />
-		          		<p><small>Source: <a target="_blank" href="http://gs.statcounter.com/#browser-US-monthly-201502-201602">StatCounter Global Stats - Browser Market Share</a></small></p>
+		          		<img src="images/browser-stats.png" alt="Browser usage statistics" width="1000" />
+		          		<p><small>Source: <a target="_blank" href="http://gs.statcounter.com/">StatCounter Global Stats - Browser Market Share</a></small></p>
 		          	<aside class="notes">
 			          	<ul>
 			            	<li>Click through to show the difference between global browser shares and US.</li>
@@ -367,9 +367,9 @@
 		        <section>
 		          	<h3>Not languages</h3>
 		         	 <ul>
-		            	<li><strong>Libraries</strong>, like jQuery &amp; Mootools, are collections of programming shortcuts for a language</li>
+		            	<li><strong>Libraries</strong>, like jQuery &amp; Bootstrap, are collections of programming shortcuts for a language</li>
 		            	<li><strong>Frameworks</strong>, like Rails and Angular, a collection of assets/tools that helps you work in a particular language</li>
-						<li><strong>Content Management Systems</strong>, like WordPress, are tools that build webpages</li>
+						<li><strong>Content Management Systems</strong>, like WordPress and Drupal, are tools that build webpages</li>
 		           		<li><strong>AJAX</strong>, Asynchronous JavaScript And XML, a technique for combining multiple languages to return results from the server without needing to refresh a page.</li>
 		          	</ul>
 					<aside class="notes">
@@ -525,7 +525,7 @@
 					<h3>Let's Try It!</h3>
 					<p>Let's edit a simple HTML page.</p>
 					<ol>
-						<li>Go to <a href="https://codepen.io/gdirdu/pen/jbJjPY">our CodePen</a></li>
+						<li>Go to <a href="https://codepen.io/borrowedhvn/pen/WgezqB" target="_blank">our CodePen</a></li>
 						<li>Try changing some of the text on the page in the HTML</li>
 						<li>Try changing one of the colors in the CSS</li>
 					</ol>
@@ -603,7 +603,7 @@
 			          	<h3>Tools of the trade</h3>
 			          	<p class="left-align">To build your web site, you will probably need:</p>
 			          	<ul>
-				            <li class="fragment">A <strong>text editor</strong> like SublimeText, Notepad, or TextWrangler to write your code. Many can be found for free.</li>
+				            <li class="fragment">A <strong>text editor</strong> like SublimeText, Notepad, Atom or Visual Studio Code to write your code. Many can be found for free.</li>
 				            <li class="fragment">A <strong>web browser</strong> like Chrome, Firefox, or Safari to test your code. All popular modern browsers are free.</li>
 			          	</ul>
 		        	</section>
@@ -613,7 +613,7 @@
 			          	<p class="left-align">You will also need:</p>
 			          	<ul>
 				            <li class="fragment">An <strong>FTP (file transfer protocol) client</strong> such as WinSCP, Cyberduck, or CoffeeCup FTP to get files from your computer to the server. Many are free.</li>
-				            <li class="fragment">Optionally, an <strong>image editor</strong> such as Photoshop to edit images which will be used on the web site. Some are available for free.</li>
+				            <li class="fragment">Optionally, an <strong>image editor</strong> such as Photoshop or Canva to edit images which will be used on the web site. Some are available for free.</li>
 			          	</ul>
 					<aside class="notes">
 						<p>FTP is appropriate for beginning websites, may not be applicable as you get deeper into development in lieu of other deployment methods</p>
@@ -673,20 +673,41 @@
 			          	<h2>Questions?</h2>
 			          	<div style = "font-size:1200%; height:100%; margin-top:40%" class ="blue">?</div>
 			        </section>
+					
+					<section>
+	                  	<h3>What's Next?</h3>
+						<p style="padding: 20px 0;">
+							<a href="https://www.meetup.com/Girl-Develop-It-CentralVA/events/252338025/" target="_blank">Intro to HTML / CSS Class (Starts Sept 11)</a>
+						</p>
+						<p style="padding-bottom: 20px;">
+							<a href="https://www.meetup.com/Girl-Develop-It-CentralVA/events/252386004/" target="_blank">Intro to User Experience (Oct 6)</a>
+						</p>
+						<p style="padding-bottom: 20px;">
+							<a href="https://www.meetup.com/Girl-Develop-It-CentralVA/" target="_blank">GDI Code & Coffees</a>
+						</p>
+						<p style="padding-bottom: 20px;">
+							<a href="https://www.cvillewomen.tech/" target="_blank">Cville Women in Tech (CWIT)</a>
+						</p>
+						<p style="padding-bottom: 20px;">
+							<a href="https://be.camp/" target="_blank">beCamp (Sept 28 & 29)</a>
+						</p>
+	                </section>
 
-			<!-- Chapter Specific Info
 	                <section>
 	                  	<h3>Connect With Us!</h3>
 						<p style="padding: 20px 0;">
 							<a href="http://www.girldevelopit.com" target="_blank">www.girldevelopit.com</a>
 						</p>
 						<p style="padding-bottom: 20px;">
-							<a href="http://www.facebook.com/[CHAPTER-HANDLE]" target="_blank">facebook.com/[CHAPTER-HANDLE]</a>
+							<a href="http://www.facebook.com/gdi-centralva" target="_blank">facebook.com/gdicentralva</a>
 						</p>
 						<p style="padding-bottom: 20px;">
-							<a href="http://www.twitter.com/[CHAPTER-HANDLE]" target="_blank">@[CHAPTER-HANDLE]</a>
+							<a href="http://www.twitter.com/GDICentralVA" target="_blank">@GDICentralVA</a>
 						</p>
-	                </section>	-->
+						<p style="padding-bottom: 20px;">
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSfZtoTVOUlbebcgiehekLgUw4kVDSsb-O4uKkFq_lY0dkknMw/viewform" target="_blank">Join our Slack Group!</a>
+						</p>
+	                </section>
 			</div>
 
 			<!-- End of Class Slides -->
@@ -704,30 +725,58 @@
 		<script src="js/reveal.min.js"></script>
 
 		<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+	controls: true,
+	progress: true,
+	history: true,
+	center: true,
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+	transition: "slide", // none/fade/slide/convex/concave/zoom
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true },
-                    { src: 'plugin/accessibility-helper/js/accessibility-helper.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-
-		</script>
+	// Optional reveal.js plugins
+	dependencies: [
+		{
+			src: "lib/js/classList.js",
+			condition: function() {
+				return !document.body.classList;
+			}
+		},
+		{
+			src: "plugin/markdown/marked.js",
+			condition: function() {
+				return !!document.querySelector("[data-markdown]");
+			}
+		},
+		{
+			src: "plugin/markdown/markdown.js",
+			condition: function() {
+				return !!document.querySelector("[data-markdown]");
+			}
+		},
+		{
+			src: "plugin/highlight/highlight.js",
+			async: true,
+			condition: function() {
+				return !!document.querySelector("pre code");
+			},
+			callback: function() {
+				hljs.initHighlightingOnLoad();
+			}
+		},
+		{ src: "plugin/zoom-js/zoom.js", async: true },
+		{ src: "plugin/notes/notes.js", async: true },
+		{
+			src: "plugin/accessibility-helper/js/accessibility-helper.js",
+			async: true,
+			condition: function() {
+				return !!document.body.classList;
+			}
+		}
+	]
+});
+</script>
 
 	</body>
 </html>
